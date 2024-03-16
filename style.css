@@ -1,0 +1,172 @@
+*{
+	margin: 00;
+	padding: 00;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+.navbar{
+	background-color:rgb(30, 24, 66);
+	position: fixed;
+	width: 100%;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	backdrop-filter: blur(10px);
+}
+
+.brand-name{
+	font-size: 35px;
+	font-weight: bolder;
+	font-family: Aril black;	
+	color: white;
+	font-variant: small-caps;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+	0% {
+	  letter-spacing: -0.5em;
+	  opacity: 0;
+	}
+	40% {
+	  opacity: 0.6;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  @keyframes tracking-in-expand {
+	0% {
+	  letter-spacing: -0.5em;
+	  opacity: 0;
+	}
+	40% {
+	  opacity: 0.6;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+
+.navmenu{
+	font-size: 25px;
+	font-weight: bold;
+	color: beige;
+}
+
+.navmenu:hover
+{
+	transition-duration: 900ms;
+	color: burlywood;
+}
+
+.portfolio-section{
+	padding-top: 60px;
+	height: 600px;
+	width: 100%;
+	text-align: center;
+	border: 1px solid rgb(255, 255, 255);
+	font-family: Times New Roman;
+	font-weight: bold;
+	background-color:rgb(30, 24, 66) ;
+}
+
+
+#home{
+	background-size: 60%;
+	text-align: left;
+	background-color:rgb(30, 24, 66);
+	background-image: url(https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif);
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 90%;
+}
+
+.home-info{
+	margin-top: 70px;
+}
+
+#info1
+{
+	margin-top: 90px;
+	font-size: 25px;
+	margin-left: 120px;
+	color: rgb(60, 166, 145);
+	font-family: Calibri;
+}
+
+#info2
+{
+	font-size: 45px;
+	margin-left: 120px;
+	color: rgb(193, 204, 245);
+}
+
+.resume
+{	
+	margin-top: 35px;
+	margin-left: 150px;
+	height: 7%;
+	width: 5%;
+	font-family: Calibri;
+	font-size: 20px;
+	color: rgb(60, 166, 145);
+	background-color: rgb(30, 24, 66);
+	border-color:rgb(60, 166, 145);
+	border-radius: 20%		
+}
+.resume:hover
+{
+	background-color: rgb(60, 166, 145);
+	color: rgb(30, 24, 66);
+	border-color:rgb(30, 24, 66) ;
+}
+
+.about-name
+{	
+	color: white;
+	font-weight: bold;
+	background-color: rgb(30, 24, 66);
+}
+
+.about-info
+{	
+	height: 90%;
+	width: 100%;
+	color: aliceblue;
+}
+.row
+{
+	color: aliceblue;
+	display: flex;
+}
+.column
+{
+	color: aliceblue;
+	flex: 50;
+	height: 100%;
+	width: 50%;
+}
+.about-img
+{
+	height: 40%;
+	width:60%;
+}
+
+.right
+{
+	padding-top: 3%;
+	padding-right: 4%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: x-large;
+	text-align: justify;
+	letter-spacing: normal;
+	color:rgb(136, 166, 160);
+}
