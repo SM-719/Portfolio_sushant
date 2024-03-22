@@ -68,7 +68,6 @@ html
 }
 
 .portfolio-section{
-	padding-top: 60px;
 	height: 600px;
 	width: 100%;
 	text-align: center;
@@ -81,6 +80,7 @@ html
 
 #home{
 	background-size: 60%;
+	padding-top: 60px;
 	text-align: left;
 	background-color:rgb(30, 24, 66);
 	background-image: url(https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif);
@@ -128,9 +128,12 @@ html
 	color: rgb(30, 24, 66);
 	border-color:rgb(30, 24, 66) ;
 }
-
-.about-name
+.about{
+	height: 600px9;
+}
+.main-name
 {	
+	margin-top: 20px;
 	color: white;
 	font-weight: bold;
 	background-color: rgb(30, 24, 66);
@@ -169,4 +172,99 @@ html
 	text-align: justify;
 	letter-spacing: normal;
 	color:rgb(136, 166, 160);
+}
+
+.about-skills{
+	padding-top: 3%;
+	height: 600px;
+	width: 100%;
+	color: white;
+	background-color: rgb(30, 24, 66);
+}
+#skills{
+	height: 600px;
+	width: 100%;
+	background-color: rgb(30, 24, 66);
+}
+.tbl{
+	margin-left: 5%;
+}
+.tbl tr td{
+	padding: 40px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 5px rosybrown;
+	transition-duration: 1.5s;
+	background-color: rgb(30, 24, 66);
+}
+
+.skills-subheading{
+	color: yellow;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+	font-variant: small-caps;
+}
+.detailedskills{
+	font-size: 23px;
+	font-weight: bolder;
+	color: whitesmoke;
+	line-height: 40px;
+	word-spacing: 3px;
+	margin-top: 20px;
+}
+.skills-td{
+	margin-right: 30px;
+	padding: 20px;
+	width: 5px;
+}
+
+.skills-td:hover{
+	box-shadow: 1px 1px 4px 5px whitesmoke;
+}
+#projects{
+	height: 600px;
+	width:100%;
+}
+.card-group{
+	height: 900px;
+	width:100%;
+}
+.card{
+	margin-top: 50px;
+	margin-left:180px ;
+	margin-right: 180px	;
+	height: 450px;
+	width: 50%;
+}
+
+.card-title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#contacts{
+	height: 400px;
+}
+.row
+{
+	height: 350px;
+	width: 85%;
+	margin-left: 100px;
+	padding-top: 20px;
+	padding-left: 40px;
+	margin-right: 100px;
+	text-align: left;
+}
+.flex2{
+	flex: 50%;
+	padding-right: 150px;
+}
+.footer{
+	padding-top : 10px;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	color: aliceblue; 
+	background-color: rgb(30, 24, 66);
 }
